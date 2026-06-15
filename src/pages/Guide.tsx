@@ -123,4 +123,5 @@ export default function Guide() {
       </div>
     </div>
   );
+  
 }
