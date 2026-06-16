@@ -31,7 +31,7 @@ const DEFAULT_SETTINGS = {
   namaSekolah: "SDN KADU III",
   alamat: "Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345",
   telepon: "(021) 1234-5678",
-  email: "info@sdnharapanbangsa.sch.id",
+  email: "sdnegerikadu3@gmail.com",
   deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
   statusPendaftaran: "Buka",
   formFields: JSON.stringify(DEFAULT_FORM_FIELDS)
