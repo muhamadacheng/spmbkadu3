@@ -85,19 +85,7 @@ const getInitialMockSettings = (): AppSettings => {
     fotoKepalaSekolah: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop",
     visiSekolah: "Menjadi sekolah dasar unggulan yang menghasilkan lulusan berakhlak mulia, cerdas, terampil, dan berwawasan lingkungan.",
     misiSekolah: "1. Menyelenggarakan pembelajaran yang aktif, inovatif, kreatif, efektif, dan menyenangkan (PAIKEM).\n2. Menanamkan nilai-nilai agama dan budi pekerti luhur dalam kehidupan sehari-hari.\n3. Mengembangkan potensi, bakat, dan minat siswa melalui kegiatan ekstrakurikuler.\n4. Menciptakan lingkungan sekolah yang bersih, sehat, dan asri.",
-    formFields: [
-      { id: "Nama Lengkap", label: "Nama Lengkap", type: "text", required: true },
-      { id: "NIK", label: "NIK", type: "text", required: true },
-      { id: "Tempat Lahir", label: "Tempat Lahir", type: "text", required: true },
-      { id: "Tanggal Lahir", label: "Tanggal Lahir", type: "date", required: true },
-      { id: "Jenis Kelamin", label: "Jenis Kelamin", type: "select", options: ["Laki-laki", "Perempuan"], required: true },
-      { id: "Alamat", label: "Alamat Lengkap", type: "textarea", required: true },
-      { id: "Nama Orang Tua", label: "Nama Orang Tua/Wali", type: "text", required: true },
-      { id: "No HP", label: "No. WhatsApp Aktif", type: "text", required: true },
-      { id: "Foto Siswa", label: "Pas Foto 3x4", type: "file", required: true },
-      { id: "Kartu Keluarga", label: "Kartu Keluarga", type: "file", required: true },
-      { id: "Akta Kelahiran", label: "Akta Kelahiran", type: "file", required: true }
-    ],
+    formFields: 
     panduanJudul: "Panduan Pendaftaran SPMB",
     panduanDeskripsi: "Persiapkan dokumen berikut sebelum mulai mengisi formulir pendaftaran.",
     panduanPeringatan: "Pastikan semua dokumen di-scan atau difoto dengan jelas dan dapat terbaca. Format file yang disarankan adalah JPG, PNG, atau PDF dengan ukuran maksimal 2MB per file.",
